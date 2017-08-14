@@ -19,9 +19,9 @@ public class CamundaBpmProperties {
   public static final String PREFIX = "camunda.bpm";
   private static final String CLASS_NAME = CamundaBpmProperties.class.getSimpleName();
 
-  public static final String[] DEFAULT_BPMN_RESOURCE_SUFFIXES = new String[]{"bpmn20.xml", "bpmn"};
-  public static final String[] DEFAULT_CMMN_RESOURCE_SUFFIXES = new String[]{"cmmn11.xml", "cmmn10.xml", "cmmn"};
-  public static final String[] DEFAULT_DMN_RESOURCE_SUFFIXES = new String[]{"dmn11.xml", "dmn"};
+  public static final String[] DEFAULT_BPMN_RESOURCE_SUFFIXES = new String[]{"bpmn20.xml", "bpmn" };
+  public static final String[] DEFAULT_CMMN_RESOURCE_SUFFIXES = new String[]{"cmmn11.xml", "cmmn10.xml", "cmmn" };
+  public static final String[] DEFAULT_DMN_RESOURCE_SUFFIXES = new String[]{"dmn11.xml", "dmn" };
 
   static String[] initDeploymentResourcePattern() {
     final Set<String> suffixes = new HashSet<String>();
