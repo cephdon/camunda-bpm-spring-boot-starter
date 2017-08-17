@@ -20,12 +20,13 @@
     <module>starter-rest</module>
     <module>starter-webapp-core</module>
     <module>starter-webapp</module>
+    <module>starter-webapp-ee</module>
     <module>starter-test</module>
   </modules>
 
   <properties>
     <spring-boot.version>1.5.6.RELEASE</spring-boot.version>
-    <camunda.version>7.7.0</camunda.version>
+    <camunda.version>7.8.0-SNAPSHOT</camunda.version>
 
     <version.java>1.8</version.java>
     <java.version>${version.java}</java.version>
@@ -43,19 +44,6 @@
         <version>${camunda.version}</version>
         <scope>import</scope>
         <type>pom</type>
-      </dependency>
-
-      <dependency>
-        <groupId>org.camunda.bpm.webapp</groupId>
-        <artifactId>camunda-webapp-webjar</artifactId>
-        <version>${camunda.version}</version>
-      </dependency>
-
-      <dependency>
-        <groupId>org.camunda.bpm.webapp</groupId>
-        <artifactId>camunda-webapp</artifactId>
-        <classifier>classes</classifier>
-        <version>${camunda.version}</version>
       </dependency>
 
       <dependency>
